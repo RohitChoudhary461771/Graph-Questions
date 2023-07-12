@@ -1,0 +1,9 @@
+int countingGraphs(int N)
+{
+//👉 Total no of edges 
+     int edges=N*(N-1)/2;
+
+//👉 Total no of Graph possible
+     int Total=pow(2,edges);
+     return Total;
+}
